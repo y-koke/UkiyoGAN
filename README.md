@@ -1,8 +1,7 @@
 # UkiyoGAN
 
 This is GAN model specializing in style translation from photography to ukiyo-e.  
-This code is written based on Zhu et al.'S CycleGAN implementation.  
-The official implementation by Zhu et al. is [here](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+This code is written based on [Zhu et al.'S CycleGAN implementation](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). 
 
 ## Directory
 
@@ -50,8 +49,7 @@ You can use [python-image-cropper](https://github.com/y-koke/python-image-croppe
 # UkiyoGAN
 
 写真から浮世絵へのスタイル変換に特化したGANモデルです。  
-このコードはZhuらの実装をベースに書かれています。   
-Zhuらによる公式の実装は[こちら](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)です。
+このコードは[ZhuらのCycleGAN実装](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)をベースに書かれています。
 
 ## Directory
 
