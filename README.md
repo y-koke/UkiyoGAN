@@ -43,13 +43,14 @@ python test.py --dataroot ./datasets/pic2ukiyoe --name ukiyogan --model ukiyo_ga
 
 ## Create and edit Ukiyo-e dataset
 
+You can find dataset of photography of lake [here](https://github.com/ml5js/ml5-data-and-models/tree/master).  
 You can use [ukiyoe-scraper](https://github.com/y-koke/ukiyoe-scraper) to save ukiyo-e image automatically from the ARC Ukiyoe Portal database.  
 You can use [python-image-cropper](https://github.com/y-koke/python-image-cropper) to remove the frame and title box in the ukiyo-e images.
 
 # UkiyoGAN
 
 写真から浮世絵へのスタイル変換に特化したGANモデルです。  
-このコードはZhuらの実装をベースに書かれています。 
+このコードはZhuらの実装をベースに書かれています。   
 Zhuらによる公式の実装は[こちら](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)です。
 
 ## Directory
@@ -88,3 +89,9 @@ python train.py --dataroot ./datasets/pic2ukiyoe --name ukiyogan --model ukiyo_g
 ```
 python test.py --dataroot ./datasets/pic2ukiyoe --name ukiyogan --model ukiyo_gan
 ```
+
+## データセットの作成
+
+[ここ](https://github.com/ml5js/ml5-data-and-models/tree/master)に湖の写真データセットが格納されています。    
+浮世絵画像をARC浮世絵データベースから自動保存するために私が作成した[ukiyoe-scraper](https://github.com/y-koke/ukiyoe-scraper)を使用できます。  
+ダウンロードした浮世絵画像に含まれる不要な枠やタイトル帯を取り除くために私が作成した[python-image-cropper](https://github.com/y-koke/python-image-cropper)を使用できます。
