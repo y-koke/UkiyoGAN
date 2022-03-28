@@ -3,6 +3,10 @@
 This is GAN model specializing in style translation from photography to ukiyo-e.  
 This code is written based on [Zhu et al.'S CycleGAN implementation](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). 
 
+## Pretrained HED model
+
+Download pretrained HED model from [here](https://content.sniklaus.com/github/pytorch-hed/network-bsds500.pytorch), and move to under the "models" directory.
+
 ## Directory
 
 You have to create the datasets directory and results directory like bellow.
@@ -50,6 +54,10 @@ You can use [python-image-cropper](https://github.com/y-koke/python-image-croppe
 
 写真から浮世絵へのスタイル変換に特化したGANモデルです。  
 このコードは[ZhuらのCycleGAN実装](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)をベースに書かれています。
+
+## 事前学習済みHEDモデル
+
+[ここ](https://content.sniklaus.com/github/pytorch-hed/network-bsds500.pytorch)から事前学習済みHEDモデルをダウンロードしてmodelsディレクトリに格納してください。
 
 ## Directory
 
